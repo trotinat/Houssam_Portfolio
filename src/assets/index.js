@@ -23,7 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import sap from "./tech/abap.png";
 import c from "./tech/c.png";
-import python from "./tech/python.png";
+import python from "./tech/Python.png";
 import php from "./tech/php.png";
 import laravel from "./tech/laravel.png";
 import java from "./tech/java.png";
