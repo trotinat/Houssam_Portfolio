@@ -28,6 +28,12 @@ import {
   smartHome,
   proj,
   sap,
+  restaurant,
+  java,
+  c,
+  laravel,
+  php,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -66,32 +72,36 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "SAP ABAP",
+    icon: sap,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "java",
+    icon: java,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "c",
+    icon: c,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "Node JS",
@@ -102,17 +112,15 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "php",
+    icon: php,
   },
+ 
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "SAP ABAP",
-    icon: sap,
-  },
+  
   {
     name: "docker",
     icon: docker,
@@ -199,47 +207,56 @@ const projects = [
     source_code_link: "https://github.com/trotinat/SmartHome",
   },
   {
-    name: "Job IT",
+    name: "Projects Management",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This powerful application has been specifically designed to assist you in efficiently managing your projects, tracking task progress, and fostering collaboration within your company. Whether you hold a position as an administrator, manager, or developer, this application is strategically tailored to meet your needs and enhance project management.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "LARAVEL",
+        color: "orange-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind Css",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
       },
     ],
     image: proj,
     source_code_link: "https://github.com/BC-Skills/BC_skills-Project",
   },
   {
-    name: "Trip Guide",
+    name: "Restaurant Near Me",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Discover a curated selection of Moroccan restaurants near you on our website, complete with enticing pictures and menus. We use data scraping with BeautifulSoup to ensure you find the perfect place for a Moroccan culinary journey right at your fingertips. Explore the flavors of Morocco, right where you are!",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "BeautifulSoup",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "ReactJs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: restaurant,
+    source_code_link: "https://github.com/trotinat/Restaurant_Near_Me",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
